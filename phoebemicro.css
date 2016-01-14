@@ -1,0 +1,55 @@
+/* Bootstrap Vertical Nav Styles */
+
+.navbar-default {
+    background-color: green;
+    border-color: #E7E7E7;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
+
+/* Navigation semicircle */
+#semi {
+        width:300px;
+        min-height: 300px;
+        border: 1px solid transparent; /* the 'strokes' of the arc */
+        border-radius: 0 0 300px 0; /* depend on width */
+        /* border-color: blue red red blue; */
+        background-color: green;
+}
