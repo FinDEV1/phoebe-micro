@@ -1,5 +1,6 @@
 /* Bootstrap Vertical Nav Styles */
 
+
 .navbar-default {
     background-color: green;
     border-color: #E7E7E7;
@@ -29,6 +30,9 @@
 	max-width:300px;
 	margin-right: 0;
 	margin-left: 0;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border:none;
 }	
 
 .navbar-nav,
@@ -53,3 +57,14 @@
         /* border-color: blue red red blue; */
         background-color: green;
 }
+
+#HERO {
+    max-width: 768px;
+    margin: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.jumbotron {text-align: center;}
