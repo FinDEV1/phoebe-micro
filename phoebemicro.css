@@ -24,9 +24,6 @@
     margin: auto;
 }
 
-
-.jumbotron {text-align: center;}
-
 #main-nav { width:100%; }
 
 /* Bootstrap Vertical Nav Styles */
@@ -58,13 +55,18 @@
     padding: 10px 0px 0px 75px;
 	font-weight: bold;
   letter-spacing: 1px;
-
 }
 
 
 .hidden { display: none; }
 
+#newbrand  { margin-top: 55px; }
 #newbrand, #logotagline, #campaign, #livingbrand, #launch, #FAQs { margin-bottom:100px; }
+
+.garamond { font-family: 'EB Garamond', serif; }
+.font24 { font-size: 24px; }
+.color55565A { color: #55565A; }
+.color0091B3 {color: #0091B3 }
 
 
 @media (min-width: 768px) {
@@ -81,7 +83,7 @@
 
       }
 	  
-       .navbar-header { background-color: #A4D55D; }
+       .navbar-header { background-color: #A4D55D; padding-bottom: 50px; }
 
 	  
 	  .navbar-default .navbar-brand {
@@ -89,7 +91,7 @@
 		text-align: -moz-center;
 		text-align: -webkit-center;
 		text-align: center;
-		margin-top: 120px;
+		margin-top: 65px;
 		}
 		
 		.navbar-default {
@@ -124,7 +126,6 @@
         }
 		
 		.navbar-nav {
-    	margin-top: 50px;
 		font-size: 15px;
 		text-transform: uppercase;
 		}
@@ -136,6 +137,10 @@
     .navbar-right,
     .navbar-header
     {float:none !important;}
+	
+	.nav > li > a {
+	background-color: #a4d55d;
+	}
 
     .navbar-right .dropdown-menu {left:0;right:auto;}
     .navbar-collapse .navbar-nav.navbar-right:last-child {
