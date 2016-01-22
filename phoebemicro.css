@@ -1,61 +1,22 @@
-/* Bootstrap Vertical Nav Styles */
-
-
-.navbar-default {
-    background-color: green;
-    border-color: #E7E7E7;
-}
-
-@media (min-width: 768px) {
-  .navbar-collapse {
-    height: auto;
-    border-top: 0;
-    box-shadow: none;
-    max-height: none;
-    padding-left:0;
-    padding-right:0;
-  }
-  .navbar-collapse.collapse {
-    display: block !important;
-    width: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
-  .navbar-collapse.in {
-    overflow-x: visible;
-  }
-
-.navbar
-{
-	max-width:300px;
-	margin-right: 0;
-	margin-left: 0;
-  margin-bottom: 0px;
-  border-radius: 0px;
-  border:none;
-}	
-
-.navbar-nav,
-.navbar-nav > li,
-.navbar-left,
-.navbar-right,
-.navbar-header
-{float:none !important;}
-
-.navbar-right .dropdown-menu {left:0;right:auto;}
-.navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 0;
-}
-}
-
 /* Navigation semicircle */
+
 #semi {
         width:300px;
         min-height: 300px;
         border: 1px solid transparent; /* the 'strokes' of the arc */
         border-radius: 0 0 300px 0; /* depend on width */
         /* border-color: blue red red blue; */
-        background-color: green;
+        background-color: #A4D55D;
+        display: none;
+}
+
+#semi-sm {
+        width:100%;
+        min-height: 50px;
+        border: 1px solid transparent; /* the 'strokes' of the arc */
+        border-radius: 0 0 300px 0; /* depend on width */
+        /* border-color: blue red red blue; */
+        background-color: #A4D55D;
 }
 
 #HERO {
@@ -63,8 +24,157 @@
     margin: auto;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-}
 
 .jumbotron {text-align: center;}
+
+#main-nav { width:100%; }
+
+/* Bootstrap Vertical Nav Styles */
+
+.navbar-default .navbar-nav > li > a {
+   color: #55565A;
+}
+
+.navbar-default {
+    border-color: #E7E7E7;
+    background-color: #A4D55D;
+    width:100%;
+    min-height: 70px;
+    border-radius: 0 0 300px 0; /* depend on width */
+	position:relative;
+}
+
+.navbar-brand {
+    height: 50px;
+}
+
+	.be-logo { width:50px; }
+
+
+
+
+
+.nav > li > a {
+    padding: 10px 0px 0px 75px;
+	font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+
+.hidden { display: none; }
+
+#newbrand, #logotagline, #campaign, #livingbrand, #launch, #FAQs { margin-bottom:100px; }
+
+
+@media (min-width: 768px) {
+	
+		body { font-family: "proxima-nova", san-serif; }
+		
+		h2 { text-align:center; font-size:55px; font-family: "Circular-Black"; color:#00586F; }
+		
+		#footer {text-align:center; margin:20px 0; }
+
+      .navbar-default {
+        border-color: #E7E7E7;
+	    position: fixed;
+
+      }
+	  
+       .navbar-header { background-color: #A4D55D; }
+
+	  
+	  .navbar-default .navbar-brand {
+		width: 100%;
+		text-align: -moz-center;
+		text-align: -webkit-center;
+		text-align: center;
+		margin-top: 120px;
+		}
+		
+		.navbar-default {
+    background-color: #ffffff;
+		}
+	  
+      .navbar-collapse {
+        height: auto;
+        border-top: 0;
+        box-shadow: none;
+        max-height: none;
+        padding-left:0;
+        padding-right:0;
+      }
+      .navbar-collapse.collapse {
+        display: block !important;
+        width: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+      }
+      .navbar-collapse.in {
+        overflow-x: visible;
+      }
+
+      .navbar {
+    	max-width:300px;
+    	margin-right: 0;
+    	margin-left: 0;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        border:none;
+        }
+		
+		.navbar-nav {
+    	margin-top: 50px;
+		font-size: 15px;
+		text-transform: uppercase;
+		}
+	
+
+    .navbar-nav,
+    .navbar-nav > li,
+    .navbar-left,
+    .navbar-right,
+    .navbar-header
+    {float:none !important;}
+
+    .navbar-right .dropdown-menu {left:0;right:auto;}
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: 0;
+    }
+
+    .navbar-brand { height: auto; }
+	
+	.be-logo { width:150px; margin: auto; }
+
+    #semi { display: block; }
+
+    .container {
+    width: 768px;
+    }
+
+	/* content */
+	
+	.logotab-wrap {width:100%; position:relative; clear:both; }
+	#tagline-tab, #logo-tab { width:50%;
+		float:left;
+		padding:10px;
+		font-size:26px;
+		text-align:center;
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-top-right-radius: 8px;
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-topright: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		}
+		
+	.logotab-active { background-color:#f4f4f4; }
+	
+	.logo-tab-content, .tagline-tab-content { background-color:#f4f4f4;
+		padding:40px;
+		}
+
+
+
+
+}
