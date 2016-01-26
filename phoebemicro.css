@@ -101,6 +101,12 @@ h2 { text-align:center; font-size:55px; font-family: "Circular-Black"; color:#00
 .color0091B3 { color: #0091B3 }
 .color00586F { color:#00586F; }
 
+.ruled-h4 { border-top:#999999 1px solid; border-bottom:#999999 1px solid; margin:40px 0; text-align: center; font-size: 18px; padding: 20px}
+
+
+/* Flexslider */
+#campaign > div > div > div > div > ul.slides {-webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; overflow: hidden;}
+
 
 @media (min-width: 768px) {
     
